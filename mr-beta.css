@@ -11,7 +11,7 @@
 	z-index: 9999;
 }
 
-a.mr-beta_header {
+#mr-beta a.mr-beta_header {
 	text-align: center;
 	background: url('/wp-content/plugins/jb-mr-beta/images/bg.jpg');
 	padding: 10px 20px 10px 30px;
@@ -30,19 +30,19 @@ a.mr-beta_header {
 	box-shadow: 0px 0px 5px #333;
 }
 
-a.mr-beta_header span {
+#mr-beta a.mr-beta_header span {
 	padding: 0 0 0 10px;
 }
 
-.mr-beta_show {
+#mr-beta .mr-beta_show {
 	height: 400px;
 }
 
-.mr-beta_show .mr-beta_body, .mr-beta_show .mr-beta_header {
+#mr-beta .mr-beta_show .mr-beta_body, #mr-beta .mr-beta_show .mr-beta_header {
 	box-shadow: 0px 0px 10px #333;
 }
 
-.mr-beta_body {
+#mr-beta .mr-beta_body {
 	padding: 20px 30px;
 	background: white;
 	border-top-right-radius: 10px;
@@ -51,7 +51,7 @@ a.mr-beta_header span {
 	height: 100%;
 }
 
-.mr-beta_h3 {
+#mr-beta .mr-beta_h3 {
 	font-size: 18px;
 	font-family: Georgia;
 	font-style: italic;
@@ -121,6 +121,7 @@ a.mr-beta_header span {
 	color: white;
 	border: 1px solid #4198a7;
 	padding: 5px 10px;
+	margin-bottom: 5px;
 	font-size: 12px;
 	border-radius: 5px;
 	display: none;
