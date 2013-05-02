@@ -1,0 +1,7 @@
+<?php
+
+define('BASECAMP_API', 'https://basecamp.com/XXXXXXX/api/v1/');
+define('BASECAMP_USERNAME', 'XXXXXX');
+define('BASECAMP_PASSWORD', 'XXXXXX');
+
+?>
