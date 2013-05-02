@@ -83,7 +83,7 @@ jQuery(function($) {
 								//alert(JSON.parse(data));
 								
 								if(data == 201) {
-									$('#mr-beta .mr-beta_todo').text('');
+									$('#mr-beta .mr-beta_todo').val('');
 									$('#mr-beta .mr-beta_notice').text(randomCompliment).show().delay(2000).slideUp();
 								} else {
 									$('#mr-beta .mr-beta_notice').text(data);
