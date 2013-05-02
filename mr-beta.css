@@ -1,0 +1,127 @@
+#mr-beta {
+	background: transparent;
+	position: fixed;
+	bottom: 0;
+	height: 40px;
+	right: 20px;
+	width: 300px;
+	/* overflow: hidden; */
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	z-index: 9999;
+}
+
+a.mr-beta_header {
+	text-align: center;
+	background: url('/wp-content/plugins/jb-mr-beta/images/bg.jpg');
+	padding: 10px 20px 10px 30px;
+	display: block;
+	width: 110px;
+	color: white;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Georgia;
+	font-style: italic;
+	cursor: pointer;
+	text-align: left;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: 0px 0px 5px #333;
+}
+
+a.mr-beta_header span {
+	padding: 0 0 0 10px;
+}
+
+.mr-beta_show {
+	height: 400px;
+}
+
+.mr-beta_show .mr-beta_body, .mr-beta_show .mr-beta_header {
+	box-shadow: 0px 0px 10px #333;
+}
+
+.mr-beta_body {
+	padding: 20px 30px;
+	background: white;
+	border-top-right-radius: 10px;
+	box-shadow: 0px 0px 5px #333;
+	overflow: hidden;
+	height: 100%;
+}
+
+.mr-beta_h3 {
+	font-size: 18px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+#mr-beta textarea[name="mr-beta_todo"] {
+	width: 218px;
+	height: 140px;
+	padding: 10px 10px !important;
+	border: 1px solid #d5d5d5 !important;
+	clear: both;
+	display: block;
+	color: #999;
+	font-family: Georgia;
+	font-size: 14px;
+	font-style: italic;
+}
+
+#mr-beta .mr-beta_name {
+	width: 218px;
+	padding: 10px !important;
+	border: 1px solid #d5d5d5 !important;
+	display: block;
+	clear: both;
+	font-family: Georgia;
+	font-style: italic;
+	color: #999;
+	font-size: 14px;
+}
+
+#mr-beta .mr-beta_name:focus {
+	outline: none;
+	color: #333;
+}
+
+#mr-beta textarea[name="mr-beta_todo"]:focus {
+	outline: none;
+	border: 1px solid #8cbec7 !important;
+	color: #333;
+}
+
+#mr-beta input[name="mr-beta_submit"] {
+	width: 100%;
+	padding: 5px 10px;
+	border: 1px solid #7bcbd9;
+	display: block;
+	clear: both;
+	background: #8cbec7;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+#mr-beta input[name="mr-beta_submit"]:hover {
+	background: #7bcbd9;
+}
+
+#mr-beta input[name="mr-beta_submit"]:focus {
+	outline: none;
+}
+
+#mr-beta .mr-beta_notice {
+	background: #8cbec7;
+	color: white;
+	border: 1px solid #4198a7;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-radius: 5px;
+	display: none;
+}
