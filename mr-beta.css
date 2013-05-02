@@ -57,6 +57,7 @@
 	font-style: italic;
 	margin-bottom: 0;
 	text-align: left;
+	margin-bottom: 10px;
 }
 
 #mr-beta textarea[name="mr-beta_todo"] {
@@ -106,6 +107,10 @@
 	text-transform: uppercase;
 	cursor: pointer;
 	font-size: 14px;
+}
+
+#mr-beta input[name="mr-beta_name"] {
+	padding: 5px 10px;
 }
 
 #mr-beta input[name="mr-beta_submit"]:hover {
