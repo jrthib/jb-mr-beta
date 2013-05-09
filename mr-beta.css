@@ -1,3 +1,8 @@
+#mr-beta * {
+	margin: 0;
+	padding: 0;
+}
+
 #mr-beta {
 	background: transparent;
 	position: fixed;
