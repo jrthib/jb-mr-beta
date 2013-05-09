@@ -37,6 +37,7 @@ jQuery(function($) {
 		
 		$('#mr-beta .mr-beta_notice').text("Capturing screenshot...").show().delay(1000).slideUp(function() {
 			$('#mr-beta').hide();
+			$(window).scrollTop(0);
 			html2canvas( [ document.body ], {
 	        	onrendered: function(canvas) {
 	        	
