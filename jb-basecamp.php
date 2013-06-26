@@ -29,7 +29,7 @@ class JB_Basecamp {
 		$postData = array(
 			'content' => $data['todoText'],
 			'due_at' =>  date("c", strtotime("+1 week")),
-			'assignee' => null
+			'assignee' => 848138 // alyssa
 		);
 		
 		$listID = get_option('jb_beta_basecamp_list_id');
