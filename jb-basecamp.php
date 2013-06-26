@@ -32,6 +32,7 @@ class JB_Basecamp {
 			'assignee' => array(
 				'id' => 848138, // alyssa
 				'type' => 'Person'
+			)
 		);
 		
 		$listID = get_option('jb_beta_basecamp_list_id');
